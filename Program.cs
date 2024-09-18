@@ -10,23 +10,16 @@ namespace pokemon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("R6");
-            Console.WriteLine("---Sandslash---");
-            Sandslash sl = new Sandslash();
-            sl.ShowHP();
-            sl.ShowDamage();
-            sl.ShowDefense();
-            sl.ShowSPAttack();
-            sl.ShowSPDefense();
-            sl.ShowSpeed();
+            Console.WriteLine("R7");
+            Console.WriteLine("---Tropius---");
+            Tropius tp = new Tropius();
+            tp.ShowHP();
+            tp.ShowDamage();
+            tp.ShowDefense();
+            tp.ShowSPAttack();
+            tp.ShowSPDefense();
+            tp.ShowSpeed();
             Console.WriteLine("");
-            sl.FocusEnergy();
-            Console.WriteLine("");
-            sl.QuickAttack();
-            Console.WriteLine("");
-            sl.Facade();
-            Console.WriteLine("");
-            sl.Roost();
         }
     }
 
@@ -45,14 +38,14 @@ namespace pokemon
         public abstract void ShowSpeed();
     }
 
-    public class Sandslash : pokemon
+    public class Tropius : pokemon
     {
-        double HP = 75;
-        double Attack = 100;
-        double Defense = 110;
-        double SAttack = 45;
-        double SDefense = 55;
-        double Speed = 65;
+        double HP = 99;
+        double Attack = 68;
+        double Defense = 83;
+        double SAttack = 72;
+        double SDefense = 87;
+        double Speed = 51;
         public override void ShowHP()
         {
             Console.WriteLine("Здоровье = " + HP);
@@ -76,23 +69,6 @@ namespace pokemon
         public override void ShowSpeed()
         {
             Console.WriteLine("Скорость = " + Speed);
-        }
-
-        public void FocusEnergy()
-        {
-            Console.WriteLine("Using Focus Energy!!!");
-        }
-        public void QuickAttack()
-        {
-            Console.WriteLine("Using Quick Attack!!!");
-        }
-        public void Facade()
-        {
-            Console.WriteLine("Using Facade!!!");
-        }
-        public void Roost()
-        {
-            Console.WriteLine("Using Roost!!!");
         }
     }
 }
