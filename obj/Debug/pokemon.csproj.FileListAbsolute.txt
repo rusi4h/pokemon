@@ -1,0 +1,7 @@
+C:\Users\Света\Desktop\pokemon-02f5d9f53d6504defad9c2d14fc06da5193f1258\bin\Debug\pokemon.exe.config
+C:\Users\Света\Desktop\pokemon-02f5d9f53d6504defad9c2d14fc06da5193f1258\bin\Debug\pokemon.exe
+C:\Users\Света\Desktop\pokemon-02f5d9f53d6504defad9c2d14fc06da5193f1258\bin\Debug\pokemon.pdb
+C:\Users\Света\Desktop\pokemon-02f5d9f53d6504defad9c2d14fc06da5193f1258\obj\Debug\pokemon.csproj.AssemblyReference.cache
+C:\Users\Света\Desktop\pokemon-02f5d9f53d6504defad9c2d14fc06da5193f1258\obj\Debug\pokemon.csproj.CoreCompileInputs.cache
+C:\Users\Света\Desktop\pokemon-02f5d9f53d6504defad9c2d14fc06da5193f1258\obj\Debug\pokemon.exe
+C:\Users\Света\Desktop\pokemon-02f5d9f53d6504defad9c2d14fc06da5193f1258\obj\Debug\pokemon.pdb
