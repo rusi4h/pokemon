@@ -10,8 +10,17 @@ namespace pokemon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("R1");
+            Console.WriteLine("R2");
             Console.WriteLine("---Sandshrew---");
+            Sandshrew ss = new Sandshrew();
+            ss.ShowHP();
+            ss.ShowDamage();
+            ss.ShowDefense();
+            ss.ShowSPAttack();
+            ss.ShowSPDefense();
+            ss.ShowSpeed();
+            Console.WriteLine("");
+            ss.FocusEnergy();
         }
     }
 
@@ -61,6 +70,11 @@ namespace pokemon
         public override void ShowSpeed()
         {
             Console.WriteLine("Скорость = " + Speed);
+        }
+
+        public void FocusEnergy()
+        {
+            Console.WriteLine("Using Focus Energy!!!");
         }
     }
 }
