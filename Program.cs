@@ -10,7 +10,7 @@ namespace pokemon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("R10");
+            Console.WriteLine("R11");
             Console.WriteLine("---Tropius---");
             Tropius tp = new Tropius();
             tp.ShowHP();
@@ -25,6 +25,8 @@ namespace pokemon
             tp.PlayRough();
             Console.WriteLine("");
             tp.Tackle();
+            Console.WriteLine("");
+            tp.IceFang();
         }
     }
 
@@ -87,6 +89,10 @@ namespace pokemon
         public void Tackle()
         {
             Console.WriteLine("Using Tackle!!!");
+        }
+        public void IceFang()
+        {
+            Console.WriteLine("Using Ice Fang!!!");
         }
     }
 }
