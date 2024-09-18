@@ -10,21 +10,21 @@ namespace pokemon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("R4");
-            Console.WriteLine("---Sandshrew---");
-            Sandshrew ss = new Sandshrew();
-            ss.ShowHP();
-            ss.ShowDamage();
-            ss.ShowDefense();
-            ss.ShowSPAttack();
-            ss.ShowSPDefense();
-            ss.ShowSpeed();
+            Console.WriteLine("R5");
+            Console.WriteLine("---Sandslash---");
+            Sandslash sl = new Sandslash();
+            sl.ShowHP();
+            sl.ShowDamage();
+            sl.ShowDefense();
+            sl.ShowSPAttack();
+            sl.ShowSPDefense();
+            sl.ShowSpeed();
             Console.WriteLine("");
-            ss.FocusEnergy();
+            sl.FocusEnergy();
             Console.WriteLine("");
-            ss.QuickAttack();
+            sl.QuickAttack();
             Console.WriteLine("");
-            ss.Facade();
+            sl.Facade();
         }
     }
 
@@ -43,14 +43,14 @@ namespace pokemon
         public abstract void ShowSpeed();
     }
 
-    public class Sandshrew : pokemon
+    public class Sandslash : pokemon
     {
-        double HP = 50;
-        double Attack = 75;
-        double Defense = 85;
-        double SAttack = 20;
-        double SDefense = 30;
-        double Speed = 40;
+        double HP = 75;
+        double Attack = 100;
+        double Defense = 110;
+        double SAttack = 45;
+        double SDefense = 55;
+        double Speed = 65;
         public override void ShowHP()
         {
             Console.WriteLine("Здоровье = " + HP);
