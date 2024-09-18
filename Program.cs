@@ -10,7 +10,7 @@ namespace pokemon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("R8");
+            Console.WriteLine("R9");
             Console.WriteLine("---Tropius---");
             Tropius tp = new Tropius();
             tp.ShowHP();
@@ -21,6 +21,8 @@ namespace pokemon
             tp.ShowSpeed();
             Console.WriteLine("");
             tp.Snarl();
+            Console.WriteLine("");
+            tp.PlayRough();
         }
     }
 
@@ -75,6 +77,10 @@ namespace pokemon
         public void Snarl()
         {
             Console.WriteLine("Using Snarl!!!");
+        }
+        public void PlayRough()
+        {
+            Console.WriteLine("Using Play Rough!!!");
         }
     }
 }
